@@ -1,0 +1,14 @@
+{
+  "name": "VerifAI",
+  "short_name": "VerifAI",
+  "description": "Check health claims against online medical evidence. EN/AR.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#edf3f8",
+  "theme_color": "#0b5cab",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

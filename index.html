@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VerifAI - Health claim checker (EN/AR)</title>
+  <meta name="description" content="Check a health claim against online medical evidence. English and Arabic. Educational prototype." />
+  <meta name="theme-color" content="#0b5cab" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="VerifAI" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+    <header>
+      <h1>VerifAI</h1>
+
+      <div class="header-actions">
+        <button id="themeBtn" type="button" class="ghost" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+        <button id="langBtn" type="button" class="ghost">العربية</button>
+      </div>
+    </header>
+
+    <p id="subtitle" class="muted" data-i18n="subtitle"></p>
+
+    <label for="claim" data-i18n="claimLabel"></label>
+    <textarea id="claim" rows="5" data-i18n-placeholder="placeholder"></textarea>
+
+    <div class="row">
+      <button id="assessBtn" type="button" class="primary" data-i18n="assess"></button>
+      <button id="clearBtn" type="button" class="ghost" data-i18n="clear"></button>
+    </div>
+
+    <section id="result" aria-live="polite" hidden></section>
+
+    <footer id="disclaimer" class="small" data-i18n="disclaimer"></footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
