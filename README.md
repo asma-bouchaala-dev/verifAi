@@ -189,7 +189,19 @@ Team Lead & Developer · NYAS Junior Academy
 I worked on developing VerifAI as an educational project focused on the intersection of technology, scientific evidence, and public health.
 
 My goal was to explore how software can make scientific information more accessible and help people approach online health claims more critically.
+Copyright
 
+---
+
+## Copyright
+
+© 2026 Asma Bouchaala. All rights reserved.
+
+This repository is publicly available for viewing and portfolio evaluation.
+
+No permission is granted to reuse, copy, modify, redistribute, or commercially exploit this project's code, design, branding, or original materials without prior written permission from the author, except where permitted by applicable law and GitHub's Terms of Service.
+
+For permission to use or adapt any part of this project, please contact the author.
 ---
 
 *Built with curiosity, code, and a commitment to evidence.*
