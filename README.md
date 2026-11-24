@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  🌐 <a href="YOUR_LIVE_DEMO_URL">Live Demo</a> ·
+  🌐 <a href="https://verifai-9vfo.onrender.com/">Live Demo</a> ·
   📖 <a href="DEPLOY.md">Deployment Guide</a>
 </p>
 
@@ -175,9 +175,9 @@ The frontend consists of:
 - `style.css`
 - `app.js`
 
-The backend is maintained in a separate repository.
+### Backend
 
-**Backend repository:** [Add backend repository link]
+The backend is deployed separately on Render and exposes the `POST /assess` endpoint.
 
 ---
 
